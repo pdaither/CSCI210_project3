@@ -72,7 +72,7 @@ int main() {
 	} else if (strcmp(command, "exit") == 0) {
 	    break;
 	} else if (strcmp(command, "help") == 0) {
-	    printf("The allowed commands are: \n");
+	    printf("The allowed commands are:\n");
 	    for (int i = 0; i < 12; i++){
 		printf("%d. ", i+1);
 		printf("%s\n", allowed[i]);
